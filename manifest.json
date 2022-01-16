@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Edge Transparent Search",
+    "version": "1.0.0",
+    "description": "An extension that search for transparent image on Bing",
+    "content_scripts": [
+        {
+            "matches": ["https://www.bing.com/images/search?q=*"],
+            "js": ["source/transparent.js"]
+        }
+    ],
+    "icons": {
+        "64": "image/icon.png"
+    },
+    "browser_action": {
+        "default_icon": "image/icon.png",
+        "default_popup": "source/popup.html",
+        "default_title": "Edge Trransparent Search"
+    }
+}
