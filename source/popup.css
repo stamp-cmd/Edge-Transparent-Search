@@ -1,0 +1,11 @@
+body {
+    text-align: center;
+    display: grid;
+    width: 250px;
+    place-items: center;
+    padding: 10px;
+}
+
+h1, h4 {
+    font-family: Calibri;
+}
